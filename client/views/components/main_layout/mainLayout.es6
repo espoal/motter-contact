@@ -9,3 +9,4 @@ Template.mainLayout.onCreated( function() {
 
 });
 
+Template.mainLayout.onRendered(function() { mobileNavigation(); });
